@@ -1,0 +1,27 @@
+.input-error {
+    border: 2px solid red;
+}
+
+#student-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    row-gap: 15px;
+    background-color: rgb(201, 225, 225);
+    padding: 15px;
+}
+
+
+input[type="submit" i] {
+    background-color: rgb(146, 176, 176);
+    border-radius: 10px;
+}
+
+.error-alert{
+    color: red;
+}
+
+label{
+    display: flex;
+    padding-bottom: 5px;
+}
